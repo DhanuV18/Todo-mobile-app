@@ -64,7 +64,7 @@ const App = () => {
       {/* <LinearGradient style={styles.gradient}
         colors={['rgba(156, 6, 128, 0.1)', 'transparent']}
       /> */}
-			{/* <Text style={styles.heading}>Vishify</Text>  */}
+			<Text style={styles.heading}>Vishify</Text> 
 			<Text style={styles.title}>ToDo App</Text> 
 			<TextInput 
 				style={styles.input} 
