@@ -44,19 +44,16 @@ const App = () => {
 
 	const renderItem = ({ item, index }) => ( 
 		<View style={styles.task}> 
-			<Text 
-				style={styles.itemList}>{item}</Text> 
+			<Text style={styles.itemList}>{item}</Text> 
 			<View 
 				style={styles.taskButtons}> 
 				<TouchableOpacity 
 					onPress={() => handleEditTask(index)}> 
-					<Text 
-						style={styles.editButton}>Edit</Text> 
+					<Text style={styles.editButton}>Edit</Text> 
 				</TouchableOpacity> 
 				<TouchableOpacity 
 					onPress={() => handleDeleteTask(index)}> 
-					<Text 
-						style={styles.deleteButton}>Delete</Text> 
+					<Text style={styles.deleteButton}>Delete</Text> 
 				</TouchableOpacity> 
 			</View> 
 		</View> 
@@ -67,7 +64,7 @@ const App = () => {
       {/* <LinearGradient style={styles.gradient}
         colors={['rgba(156, 6, 128, 0.1)', 'transparent']}
       /> */}
-			<Text style={styles.heading}>Vishify</Text> 
+			{/* <Text style={styles.heading}>Vishify</Text>  */}
 			<Text style={styles.title}>ToDo App</Text> 
 			<TextInput 
 				style={styles.input} 
@@ -109,7 +106,7 @@ const styles = StyleSheet.create({
     height: 300,
   },
 	title: { 
-		fontSize: 24, 
+		fontSize: 25, 
 		fontWeight: "bold", 
 		marginBottom: 20, 
 	}, 
@@ -117,7 +114,7 @@ const styles = StyleSheet.create({
 		fontSize: 40, 
 		fontWeight: "bold", 
 		marginBottom: 7, 
-		color: "", 
+		color: "rgba(240, 136, 17,0.9)", 
     textAlign: "center"
 	}, 
 	input: { 
