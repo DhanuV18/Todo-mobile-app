@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ToDo-App",
-    "slug": "ToDo-App",
+    "slug": "todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fbb20f3-a478-4e68-8412-2307ac5e6810"
+      }
+    },
+    "owner": "dhanu18",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5fbb20f3-a478-4e68-8412-2307ac5e6810"
     }
   }
 }
